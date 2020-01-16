@@ -3,6 +3,7 @@ const { spawn } = require('child_process');
 const program = require('commander');
  
 program
+  .usage('[options] [file]')
   .option('-i, --input <type>', 'Input movie file')
   .option('-o, --output <type>', 'Output gif file', 'output.gif')
   .option('-f, --ffmpeg <type>', 'FFMPEG path on your local filesystem', 'ffmpeg')
@@ -22,7 +23,7 @@ const {
   fps,
   startTime,
   duration,
-  loop
+  loop,
 } = program;
 
 function validate() {

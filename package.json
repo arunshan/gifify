@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "bin": {
-    "giphyfy": "index.js"
+    "gifify": "index.js"
   },
   "dependencies": {
     "commander": "^4.1.0"
