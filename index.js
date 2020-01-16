@@ -4,14 +4,14 @@ const program = require('commander');
  
 program
   .usage('[options] [file]')
-  .option('-i, --input <type>', 'Input movie file')
-  .option('-o, --output <type>', 'Output gif file', 'output.gif')
-  .option('-f, --ffmpeg <type>', 'FFMPEG path on your local filesystem', 'ffmpeg')
-  .option('-s, --scale <type>', 'Scale', '720')
-  .option('-fps, --fps <type>', 'FPS', '10')
-  .option('-start, --startTime <type>', 'Start Time', '0')
-  .option('-d, --duration <type>', 'Duration')
-  .option('-l, --loop <type>', 'Loop', '0');
+  .option('-i, --input <type>', 'input movie file')
+  .option('-o, --output <type>', 'output gif file', 'output.gif')
+  .option('-f, --ffmpeg <type>', 'ffmpeg path on your local filesystem', 'ffmpeg')
+  .option('-s, --scale <type>', 'scale', '720')
+  .option('-fps, --fps <type>', 'fps', '10')
+  .option('-start, --startTime <type>', 'start time', '0')
+  .option('-d, --duration <type>', 'duration')
+  .option('-l, --loop <type>', 'loop', '0');
 
 program.parse(process.argv);
 
