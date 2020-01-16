@@ -9,5 +9,15 @@
   },
   "dependencies": {
     "commander": "^4.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunshan/gifify.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/arunshan/gifify/issues"
+  },
+  "homepage": "https://github.com/arunshan/gifify#readme"
 }
