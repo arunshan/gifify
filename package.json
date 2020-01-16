@@ -1,0 +1,13 @@
+{
+  "name": "gifify",
+  "version": "1.0.0",
+  "description": "Convert your videos to gifs",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^4.1.0"
+  }
+}
