@@ -1,5 +1,5 @@
 {
-  "name": "gifify",
+  "name": "giphyfy",
   "version": "1.0.0",
   "description": "Convert your videos to gifs",
   "main": "index.js",
