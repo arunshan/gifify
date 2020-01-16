@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+    "giphyfy": "node index.js"
+  },
   "dependencies": {
     "commander": "^4.1.0"
   },
